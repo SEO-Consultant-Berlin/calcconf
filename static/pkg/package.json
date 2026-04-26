@@ -1,0 +1,15 @@
+{
+  "name": "confectioner-calc",
+  "type": "module",
+  "version": "1.0.0",
+  "files": [
+    "confectioner_calc_bg.wasm",
+    "confectioner_calc.js",
+    "confectioner_calc.d.ts"
+  ],
+  "main": "confectioner_calc.js",
+  "types": "confectioner_calc.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
