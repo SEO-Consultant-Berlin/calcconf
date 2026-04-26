@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>CalcConf — Калькулятор кондитера</title>
-    <link rel="stylesheet" href="styles-v2.css">
+    <link rel="stylesheet" href="styles-v2.css?v=3">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#6C5CE7">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="CalcConf">
     <meta name="description" content="Калькулятор себестоимости, конвертер мер. Всё для кондитера.">
 </head>
 <body>
@@ -17,15 +15,6 @@
     <script type="module">
         import init from './static/pkg/confectioner_calc.js';
         init();
-    </script>
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js')
-                    .then(reg => console.log('PWA: OK'))
-                    .catch(err => console.log('PWA: Error', err));
-            });
-        }
     </script>
 </body>
 </html>
