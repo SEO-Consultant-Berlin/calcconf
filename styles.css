@@ -472,3 +472,4 @@ tr:hover td { background: rgba(108,92,231,0.05); }
     .result-grid { grid-template-columns: 1fr; }
     nav { overflow-x: auto; flex-wrap: nowrap; }
 }
+
