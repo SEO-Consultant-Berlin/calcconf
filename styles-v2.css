@@ -443,3 +443,22 @@ tr:hover td { background: rgba(108,92,231,0.05); }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--primary); }
+
+/* ===== ФИКС ВЫПАДАЮЩЕГО МЕНЮ ===== */
+.nav-desktop { display: none !important; }
+.hamburger { display: flex !important; }
+.menu-overlay { display: flex !important; }
+.menu-dropdown { display: flex !important; flex-direction: column !important; }
+.menu-link { 
+    display: flex !important; 
+    flex-direction: row !important; 
+    align-items: center !important;
+    gap: 12px !important;
+    padding: 16px 20px !important;
+    width: 100% !important;
+    text-align: left !important;
+}
+.menu-links { display: flex !important; flex-direction: column !important; gap: 8px !important; }
+.menu-emoji { display: inline-block !important; }
+.flag-btn { display: inline-block !important; padding: 10px 16px !important; }
+.lang-flags-menu { display: flex !important; gap: 8px !important; flex-direction: row !important; }
