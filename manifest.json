@@ -1,0 +1,22 @@
+﻿{
+    "name": "CalcConf — Калькулятор кондитера",
+    "short_name": "CalcConf",
+    "description": "Калькулятор себестоимости, конвертер мер, пересчёт форм. Всё для кондитера.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0F0F1A",
+    "theme_color": "#6C5CE7",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
